@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutTitle = () => {
   return (
-    <div className='flex-[1] justify-around bg-white flex flex-col py-10 text-[3rem] font-bold min-h-full'>
+    <div className='flex-[1] flex-row md:flex-col justify-around bg-white flex  px-10 py-5 md:px-0 md:py-10 text-[3rem] font-bold min-h-full'>
       <span>A</span>
       <span>B</span>
       <span>O</span>
@@ -40,7 +40,7 @@ const ContactQRCodes = () => {
 
 export default function About() {
   return (
-    <div className='flex h-full'>
+    <div className='flex flex-col md:flex-row h-full'>
       <AboutTitle />
       <div className='flex-[5] px-10 font-semibold text-lg text-white py-10 text-left flex items-start justify-center'>
         5 WEB Quantum is the page that enables the path for differential
@@ -84,7 +84,6 @@ export default function About() {
         journey as we shape the future of technology.
       </div>
       <ContactQRCodes />
-
     </div>
   );
 }

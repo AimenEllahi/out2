@@ -23,70 +23,70 @@ export default function SliderSection() {
   };
 
   return (
-    <div className="h-auto md:h-[90vh] p-10 px-10 flex md:flex-row flex-col">
-      <div className=" md:w-2/4 w-full h-full ">
-        <Slider {...settings} className="h-[90%] custom-slider ">
+    <div className='h-auto md:h-[90vh] px-2 p-10 md:px-10 flex md:flex-row flex-col'>
+      <div className=' md:w-2/4 w-full h-full '>
+        <Slider {...settings} className='h-[90%] custom-slider '>
           <img
             src={"/images/slider/qnbg.png"}
-            alt="Slide 1"
-            className=" !h-[90vh] w-full   object-cover "
+            alt='Slide 1'
+            className=' !h-[90vh] w-full   object-cover '
           />
 
           <img
             src={"/images/slider/Qhome.png"}
-            alt="Slide 2"
-            className="!h-[90vh]  object-fit "
+            alt='Slide 2'
+            className='!h-[90vh]  object-fit '
           />
 
           <img
             src={"/images/slider/Qhome.png"}
-            alt="Slide 3"
-            className="!h-[90vh]    object-fit "
+            alt='Slide 3'
+            className='!h-[90vh]    object-fit '
           />
 
           <img
             src={"/images/slider/qcom.png"}
-            alt="Slide 4"
-            className="!h-[90vh]    object-fit "
+            alt='Slide 4'
+            className='!h-[90vh]    object-fit '
           />
 
           <img
             src={"/images/slider/Qt.png"}
-            alt="Slide 5"
-            className="!h-[90vh]    object-fit "
+            alt='Slide 5'
+            className='!h-[90vh]    object-fit '
           />
         </Slider>
       </div>
-      <div className="md:w-2/4 w-full h-full ">
-        <Slider {...settings} className="h-[90%] custom-slider ">
+      <div className='md:w-2/4 w-full h-full '>
+        <Slider {...settings} className='h-[90%] custom-slider '>
           <img
             src={"/images/slider/amnbg.png"}
-            alt="Slide 1"
-            className=" !h-[90vh] w-full   object-cover "
+            alt='Slide 1'
+            className=' !h-[90vh] w-full   object-cover '
           />
 
           <img
             src={"/images/slider/A1m.png"}
-            alt="Slide 2"
-            className="!h-[90vh]   object-fit "
+            alt='Slide 2'
+            className='!h-[90vh]   object-fit '
           />
 
           <img
             src={"/images/slider/Computers.png"}
-            alt="Slide 3"
-            className="!h-[90vh]    object-fit "
+            alt='Slide 3'
+            className='!h-[90vh]    object-fit '
           />
 
           <img
             src={"/images/slider/Electronics.png"}
-            alt="Slide 4"
-            className="!h-[90vh]    object-fit "
+            alt='Slide 4'
+            className='!h-[90vh]    object-fit '
           />
 
           <img
             src={"/images/slider/MR.png"}
-            alt="Slide 5"
-            className="!h-[90vh]    object-fit "
+            alt='Slide 5'
+            className='!h-[90vh]    object-fit '
           />
         </Slider>
       </div>
