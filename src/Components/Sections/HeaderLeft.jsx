@@ -2,16 +2,16 @@ import React from "react";
 
 const TextWithIcon = ({ text = "" }) => {
   return (
-    <div className='flex gap-x-2 '>
-      <span className='mb-0.5'>{text}</span>
+    <div className="flex gap-x-2 ">
+      <span className="mb-0.5">{text}</span>
       <span>▽</span>
     </div>
   );
 };
 export default function HeaderLeft() {
   return (
-    <div className='w-2/4'>
-      <div className='font-bold'>
+    <div className="md:w-2/4 w-full">
+      <div className="font-bold">
         {" "}
         <h1>
           The interface
@@ -25,7 +25,7 @@ export default function HeaderLeft() {
           Future
         </h1>
       </div>
-      <div className='border-b border-l text-xl font-medium flex flex-col gap-y-16 px-6 pb-4 w-3/4 mt-5'>
+      <div className="border-b border-l text-xl font-medium flex flex-col gap-y-16 px-6 pb-4 w-3/4 mt-5">
         <span>
           Here you drift through the blogs that guide you from mechanisms to
           machines. And our ideologies are the connections between the two
@@ -34,7 +34,7 @@ export default function HeaderLeft() {
         </span>
         <span>Explore the world by upgrading yourself.</span>
       </div>
-      <div className='flex flex-col text-xl w-3/4 items-end'>
+      <div className="flex flex-col text-xl w-3/4 items-end">
         <TextWithIcon />
         <TextWithIcon text={"Learn from blogs"} />
         <TextWithIcon text={"Precise your perception"} />
