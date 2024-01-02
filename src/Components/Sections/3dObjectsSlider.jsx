@@ -18,9 +18,9 @@ export default function ObjectsSlider() {
         className="absolute top-0 left-0 h-full w-full object-cover z-[-1]"
       />
 
-      <div className="flex items-center justify-between md:w-[55%] w-full z-[5]">
-        <span className="md:text-[5rem] text-2xl"> OBJECTS</span>
-        <hr className="w-[12rem] border-[.1rem] rotate-90" />
+      <div className="flex md:flex-row flex-col items-center justify-between md:w-[55%] w-full z-[5]">
+        <span className="text-[5rem] "> OBJECTS</span>
+        <hr className="w-[12rem] border-[.1rem] rotate-90 hidden md:block" />
         <span className="text-left">
           {" "}
           The Moulton models from our perspectives, currently there are 3d

@@ -13,20 +13,20 @@ function Home() {
 
   return (
     <>
-      <div className='w-screen'>
-        <div className='flex text-white px-4 text-left mt-14 w-full'>
+      <div className="w-screen">
+        <div className="flex text-white px-4 text-left mt-14 w-full">
           <HeaderLeft />
           <HeaderRight />
         </div>
 
-        <div className='gradient'>
+        <div className="gradient">
           <SliderSection />
           <PDFSection />
         </div>
         <ObjectsSlider />
-        {/* <Up /> */}
+        <Up />
         <About />
-        <div className='text-xl text-white pb-10 pt-5 font-light'>
+        <div className="text-xl text-white pb-10 pt-5 font-light">
           THE PAGE WILL BE UPDATED EVERY MONTH -- PUBLISHED ON NOV 2023
         </div>
       </div>
