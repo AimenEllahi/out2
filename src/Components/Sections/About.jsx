@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutTitle = () => {
   return (
-    <div className="flex-[1] flex-row md:flex-col justify-around bg-white flex  px-10 py-5 md:px-0 md:py-10 text-[3rem] font-bold min-h-full">
+    <div className="flex-[1] flex-row md:flex-col font-commissioner justify-around bg-white flex  px-10 py-5 md:px-0 md:py-10 text-[3rem] font-bold min-h-full">
       <span>A</span>
       <span>B</span>
       <span>O</span>
@@ -17,7 +17,7 @@ const AboutTitle = () => {
 const ContactQRCodes = () => {
   return (
     <div className="flex-[2] bg-white flex flex-col items-center gap-y-5 py-10">
-      <span className="text-[3rem] font-bold">Contact</span>
+      <span className="text-[3rem] font-bold font-commissioner">Contact</span>
       <img
         src="/images/about/c1ig.png"
         className="h-40 w-40 object-contain hover:scale-110 cursor-pointer transition-transform duration-300"
@@ -45,7 +45,7 @@ export default function About() {
       className="flex flex-col relative bg-black md:flex-row h-full"
     >
       <AboutTitle />
-      <div className="flex-[5] px-10 font-semibold md:text-lg text-white py-10 text-left flex-col items-start justify-center">
+      <div className="flex-[5] px-10 font-varelaRound font-semibold md:text-lg text-white py-10 text-left flex-col items-start justify-center">
         5 WEB Quantum is the page that enables the path for differential
         learning and exploration of Quantum Technologies and Classical
         Technologies. In the Blogs section, you will find insights of knowledge

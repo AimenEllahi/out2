@@ -22,7 +22,10 @@ export default function ObjectsSlider() {
       />
 
       <div className="flex md:flex-row flex-col items-start md:items-center justify-between md:w-[55%] w-full z-[5]">
-        <span className="text-3xl md:text-[5rem] "> OBJECTS</span>
+        <span className="text-3xl md:text-[5rem] font-commissioner">
+          {" "}
+          OBJECTS
+        </span>
         <hr className="w-[12rem] border-[.1rem] rotate-90 hidden md:block" />
         <span className=" text-sm mt-3 md:mt-0 md:text-base text-left">
           {" "}
