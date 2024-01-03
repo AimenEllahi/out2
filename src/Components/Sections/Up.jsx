@@ -22,59 +22,62 @@ function Up() {
   };
 
   return (
-    <div className='relative h-full bg-black  px-5 py-10 w-screen'>
-      <div className='flex flex-col p-6'>
-        <h1 className=' text-3xl md:text-8xl text-white text-left font-medium'>
+    <div
+      id="upgrade"
+      className="relative h-full bg-black  px-5 py-10 w-screen font-commissioner"
+    >
+      <div className="flex flex-col p-6">
+        <h1 className=" text-3xl md:text-8xl text-white text-left font-medium">
           Tech - World Updates
         </h1>
-        <div className='flex flex-col mt-10  md:flex-row w-full justify-between'>
-          <div className='md:w-2/3 w-2/3'>
+        <div className="flex flex-col mt-10  md:flex-row w-full justify-between">
+          <div className="md:w-2/3 w-2/3">
             <Slider {...settings}>
               <div>
                 <img
                   src={up1}
-                  className='h-80vh object-contain transition-all duration-1100 ease-in-out filter saturate-30'
-                  alt='Overlay 1'
+                  className="h-80vh object-contain transition-all duration-1100 ease-in-out filter saturate-30"
+                  alt="Overlay 1"
                 />
               </div>
               <div>
                 <img
                   src={up2}
-                  className='h-80vh object-contain transition-all duration-1100 ease-in-out filter saturate-30'
-                  alt='Overlay 2'
+                  className="h-80vh object-contain transition-all duration-1100 ease-in-out filter saturate-30"
+                  alt="Overlay 2"
                 />
               </div>
               <div>
                 <img
                   src={up3}
-                  className='h-80vh object-contain transition-all duration-1100 ease-in-out filter saturate-30'
-                  alt='Overlay 3'
+                  className="h-80vh object-contain transition-all duration-1100 ease-in-out filter saturate-30"
+                  alt="Overlay 3"
                 />
               </div>
               <div>
                 <img
                   src={up4}
-                  className='h-80vh object-contain transition-all duration-1100 ease-in-out filter saturate-30'
-                  alt='Overlay 4'
+                  className="h-80vh object-contain transition-all duration-1100 ease-in-out filter saturate-30"
+                  alt="Overlay 4"
                 />
               </div>
               <div>
                 <img
                   src={up5}
-                  className='h-80vh object-contain transition-all duration-1100 ease-in-out filter saturate-30'
-                  alt='Overlay 5'
+                  className="h-80vh object-contain transition-all duration-1100 ease-in-out filter saturate-30"
+                  alt="Overlay 5"
                 />
               </div>
             </Slider>
           </div>
-          <div className=' text-white hidden md:flex justify-around flex-col'>
-            <div className='text-6xl text-white font-medium'>AND OUR</div>
-            <div className='transform rotate-90 flex flex-col mt-10'>
-              <span className='text-[6rem] text-white font-medium'>
+          <div className=" text-white hidden md:flex justify-around flex-col">
+            <div className="text-6xl text-white font-medium">AND OUR</div>
+            <div className="transform rotate-90 flex flex-col mt-10">
+              <span className="text-[6rem] text-white font-medium">
                 UPGRADES
               </span>
               <span
-                className='text-[6rem] font-medium text-transparent'
+                className="text-[6rem] font-medium text-transparent"
                 style={{
                   WebkitTextStroke: "1px rgba(255, 255, 255, 0.674)",
                 }}
@@ -82,7 +85,7 @@ function Up() {
                 UPGRADES
               </span>
               <span
-                className='text-[6rem] font-medium text-transparent'
+                className="text-[6rem] font-medium text-transparent"
                 style={{
                   WebkitTextStroke: "1px rgba(255, 255, 255, 0.304)",
                 }}

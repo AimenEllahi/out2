@@ -7,7 +7,14 @@ export default {
     "./src/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        commissioner: ["Commissioner", "sans-serif"],
+        redHatText: ["Red Hat Text", "sans-serif"],
+        varelaRound: ["Varela Round", "sans-serif"],
+        victorMono: ["Victor Mono", "monospace"],
+      },
+    },
   },
   plugins: [],
 };
