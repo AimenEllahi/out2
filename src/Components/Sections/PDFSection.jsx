@@ -36,7 +36,7 @@ const DropDown = ({ title, options }) => {
 
 export default function PDFSection() {
   return (
-    <div className='md:h-screen h-full w-screen flex gap-x-10 md:flex-row flex-col-reverse gap-y-5 md:gap-y-0 px-5 md:px-10 py-10 md:py-20 bg-yellow-500'>
+    <div className=' md:h-screen h-full w-screen flex gap-x-10 md:flex-row flex-col-reverse gap-y-5 md:gap-y-0 px-5 md:px-10 py-10 md:py-20 bg-yellow-500'>
       <div className='w-full md:w-2/4 h-full'>
         <a href={pdfFile} target='_blank' rel='noopener noreferrer'>
           <object

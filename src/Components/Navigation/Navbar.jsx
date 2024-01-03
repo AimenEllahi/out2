@@ -51,7 +51,13 @@ function Navbar() {
           <img src={logo3} alt='Logo' className='menu-logo h-8 w-8 mr-2' />
           Perspective Pice
         </button>
-        <button className='menu-button flex items-center bg-transparent hover:bg-[#171616] outline-none border border-none'>
+        <button
+          onClick={() => {
+            const section = document.getElementById("objects");
+            section.scrollIntoView({ behavior: "smooth" });
+          }}
+          className='menu-button flex items-center bg-transparent hover:bg-[#171616] outline-none border border-none'
+        >
           <img src={logo4} alt='Logo' className='menu-logo h-8 w-8 mr-2' />
           Objects
         </button>

@@ -12,7 +12,10 @@ export default function ObjectsSlider() {
     autoplaySpeed: 2000,
   };
   return (
-    <div className=' text-white w-full py-10 relative h-full px-10'>
+    <div
+      id='objects'
+      className=' text-white w-full py-10 relative h-full px-10'
+    >
       <img
         src='/images/3dObjects/obg.jpg'
         className='absolute top-0 left-0 h-full w-full object-cover z-[-1]'
