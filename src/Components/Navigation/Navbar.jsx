@@ -27,11 +27,11 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="bg-black text-white fixed top-0 w-full flex items-center justify-between p-2 z-10">
+    <nav className='bg-black text-white fixed top-0 w-screen flex items-center justify-between p-2 z-10'>
       <img
         src={menuIcon}
-        alt="Menu"
-        className="text-white cursor-pointer text-2xl w-10 h-10"
+        alt='Menu'
+        className='text-white cursor-pointer text-2xl w-10 h-10'
         onClick={handleMenuClick}
       />
       <div
@@ -39,33 +39,33 @@ function Navbar() {
           showMenu ? "translate-x-0" : "-translate-x-full"
         } absolute top-[100%] left-0 bg-[#121212] text-white flex flex-col p-4 transition-transform duration-300`}
       >
-        <button className="menu-button flex items-center bg-transparent hover:bg-[#171616] outline-none border border-none">
-          <img src={logo1} alt="Logo" className="menu-logo h-8 w-8 mr-2" />
+        <button className='menu-button flex items-center bg-transparent hover:bg-[#171616] outline-none border border-none'>
+          <img src={logo1} alt='Logo' className='menu-logo h-8 w-8 mr-2' />
           Quantum
         </button>
-        <button className="menu-button flex items-center bg-transparent hover:bg-[#171616] outline-none border border-none">
-          <img src={logo2} alt="Logo" className="menu-logo h-8 w-8 mr-2" />
+        <button className='menu-button flex items-center bg-transparent hover:bg-[#171616] outline-none border border-none'>
+          <img src={logo2} alt='Logo' className='menu-logo h-8 w-8 mr-2' />
           Automatons
         </button>
-        <button className="menu-button flex items-center bg-transparent hover:bg-[#171616] outline-none border border-none">
-          <img src={logo3} alt="Logo" className="menu-logo h-8 w-8 mr-2" />
+        <button className='menu-button flex items-center bg-transparent hover:bg-[#171616] outline-none border border-none'>
+          <img src={logo3} alt='Logo' className='menu-logo h-8 w-8 mr-2' />
           Perspective Pice
         </button>
-        <button className="menu-button flex items-center bg-transparent hover:bg-[#171616] outline-none border border-none">
-          <img src={logo4} alt="Logo" className="menu-logo h-8 w-8 mr-2" />
+        <button className='menu-button flex items-center bg-transparent hover:bg-[#171616] outline-none border border-none'>
+          <img src={logo4} alt='Logo' className='menu-logo h-8 w-8 mr-2' />
           Objects
         </button>
-        <button className="menu-button flex items-center bg-transparent hover:bg-[#171616] outline-none border border-none">
-          <img src={logo5} alt="Logo" className="menu-logo h-8 w-8 mr-2" />
+        <button className='menu-button flex items-center bg-transparent hover:bg-[#171616] outline-none border border-none'>
+          <img src={logo5} alt='Logo' className='menu-logo h-8 w-8 mr-2' />
           Upgrades
         </button>
       </div>
-      <div className="hidden md:flex items-center">
-        <button className="company-button text-black bg-white border-solid border p-2 cursor-pointer transition duration-200 hover:bg-transparent hover:text-white">
+      <div className=' flex items-center'>
+        <button className='company-button text-black bg-white border-solid border p-2 cursor-pointer transition duration-200 hover:bg-transparent hover:text-white'>
           5 WEB
         </button>
         <button
-          className="contact-button text-white bg-transparent border-solid border p-2 cursor-pointer transition duration-200 hover:bg-white hover:text-black ml-2"
+          className='contact-button text-white bg-transparent border-solid border p-2 cursor-pointer transition duration-200 hover:bg-white hover:text-black ml-2'
           onClick={handleScrollToContact}
         >
           Contact
