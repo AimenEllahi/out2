@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutTitle = () => {
   return (
-    <div className='flex-[1] flex-row md:flex-col justify-around bg-white flex  px-10 py-5 md:px-0 md:py-10 text-[3rem] font-bold min-h-full'>
+    <div className="flex-[1] flex-row md:flex-col justify-around bg-white flex  px-10 py-5 md:px-0 md:py-10 text-[3rem] font-bold min-h-full">
       <span>A</span>
       <span>B</span>
       <span>O</span>
@@ -16,23 +16,23 @@ const AboutTitle = () => {
 
 const ContactQRCodes = () => {
   return (
-    <div className='flex-[2] bg-white flex flex-col items-center gap-y-5 py-10'>
-      <span className='text-[3rem] font-bold'>Contact</span>
+    <div className="flex-[2] bg-white flex flex-col items-center gap-y-5 py-10">
+      <span className="text-[3rem] font-bold">Contact</span>
       <img
-        src='/images/about/c1ig.png'
-        className='h-40 w-40 object-contain hover:scale-110 cursor-pointer transition-transform duration-300'
+        src="/images/about/c1ig.png"
+        className="h-40 w-40 object-contain hover:scale-110 cursor-pointer transition-transform duration-300"
       />
       <img
-        src='/images/about/c2in.png'
-        className='h-40 w-40 object-contain hover:scale-110 cursor-pointer transition-transform duration-300'
+        src="/images/about/c2in.png"
+        className="h-40 w-40 object-contain hover:scale-110 cursor-pointer transition-transform duration-300"
       />
       <img
-        src='/images/about/c3yt.png'
-        className='h-40 w-40 object-contain hover:scale-110 cursor-pointer transition-transform duration-300'
+        src="/images/about/c3yt.png"
+        className="h-40 w-40 object-contain hover:scale-110 cursor-pointer transition-transform duration-300"
       />
       <img
-        src='/images/about/c4m.png'
-        className='h-40 w-40 object-contain hover:scale-110 cursor-pointer transition-transform duration-300'
+        src="/images/about/c4m.png"
+        className="h-40 w-40 object-contain hover:scale-110 cursor-pointer transition-transform duration-300"
       />
     </div>
   );
@@ -40,9 +40,12 @@ const ContactQRCodes = () => {
 
 export default function About() {
   return (
-    <div className='flex flex-col relative bg-black md:flex-row h-full'>
+    <div
+      id="about"
+      className="flex flex-col relative bg-black md:flex-row h-full"
+    >
       <AboutTitle />
-      <div className='flex-[5] px-10 font-semibold md:text-lg text-white py-10 text-left flex-col items-start justify-center'>
+      <div className="flex-[5] px-10 font-semibold md:text-lg text-white py-10 text-left flex-col items-start justify-center">
         5 WEB Quantum is the page that enables the path for differential
         learning and exploration of Quantum Technologies and Classical
         Technologies. In the Blogs section, you will find insights of knowledge
@@ -83,9 +86,9 @@ export default function About() {
         world of innovation and passion. Explore, learn, and be a part of our
         journey as we shape the future of technology.
       </div>
-      <div className='group border hidden md:block'>
-        <div className='absolute h-[30vh] -bottom-2 left-5 w-[20vw] bg-transparent z-10 transition transform scale-95 ease-in-out duration-500  group-hover:scale-100'>
-          <img src='/user1.png' alt='' className=' h-full object-contain' />
+      <div className="group border hidden md:block">
+        <div className="absolute h-[30vh] -bottom-2 left-5 w-[20vw] bg-transparent z-10 transition transform scale-95 ease-in-out duration-500  group-hover:scale-100">
+          <img src="/user1.png" alt="" className=" h-full object-contain" />
         </div>
       </div>
 

@@ -13,28 +13,31 @@ function Home() {
 
   return (
     <>
-      <div className='w-screen'>
-        <div className='flex relative text-white px-4 text-left mt-14 w-full'>
+      <div className="w-screen">
+        <div
+          id="header"
+          className="flex relative text-white px-4 text-left mt-14 w-full"
+        >
           <video
-            className='absolute top-0 h-full left-0 object-cover z-[-1]'
+            className="absolute top-0  w-full h-full left-0 object-cover z-[-1]"
             autoPlay
             muted
             loop
           >
-            <source src='/videos/main.mp4' type='video/mp4' />
+            <source src="/videos/main.mp4" type="video/mp4" />
           </video>
           <HeaderLeft />
           <HeaderRight />
         </div>
 
-        <div className='gradient'>
+        <div className="gradient">
           <SliderSection />
           <PDFSection />
         </div>
         <ObjectsSlider />
         <Up />
         <About />
-        <div className='md:text-xl bg-black text-white pb-10 pt-5 font-light'>
+        <div className="md:text-xl bg-black text-white pb-10 pt-5 font-light">
           THE PAGE WILL BE UPDATED EVERY MONTH -- PUBLISHED ON NOV 2023
         </div>
       </div>
