@@ -2,8 +2,16 @@ import React from "react";
 
 const TextWithIcon = ({ text = "" }) => {
   return (
-    <div className="flex gap-x-2 ">
-      <span className="mb-0.5 font-victorMono text-2xl">{text}</span>
+    <div className="flex gap-x-2">
+      <span
+        class="mb-0.5 font-victorMono "
+        style={{
+          fontWeight: "100",
+        }}
+      >
+        {text}
+      </span>
+
       <span>▽</span>
     </div>
   );

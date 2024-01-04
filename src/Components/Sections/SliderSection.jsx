@@ -4,7 +4,7 @@ import Slider from "react-slick";
 const sliderImages1 = [
   "/images/slider/qnbg.png",
   "/images/slider/Qhome.png",
-  "/images/slider/Qhome.png",
+  "/images/slider/Qc.png",
   "/images/slider/qcom.png",
   "/images/slider/Qt.png",
 ];

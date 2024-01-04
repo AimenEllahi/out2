@@ -6,7 +6,7 @@ const ImageObjects = ({ src, className }) => {
     <img
       src={src}
       className={twMerge(
-        " absolute hover:scale-125 transition-transform duration-300 cursor-pointer  object-contain h-16   ",
+        " absolute hover:scale-125 transition-transform duration-300 cursor-pointer object-contain h-16   ",
         className
       )}
     />

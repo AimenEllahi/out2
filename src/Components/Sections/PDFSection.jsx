@@ -6,7 +6,7 @@ const DropDown = ({ title, options }) => {
   return (
     <div className="relative">
       <div
-        className=" transition-all p-3 md:p-5 rounded duration-300 cursor-pointer "
+        className="transition-all p-1 md:p-5 rounded duration-300 cursor-pointer "
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -65,7 +65,7 @@ export default function PDFSection() {
             Papers In various categories
           </span>
         </div>
-        <div className="flex flex-row items-start md:items-center justify-start md:justify-between border-t-2 border-l-2 mt-10 border-black">
+        <div className="flex flex-row sm:flex-row items-start md:items-center  justify-start md:justify-between border-t-2 border-l-2 mt-10 border-black">
           <DropDown title="Quantum" options={["Category 1", "Category 2"]} />
           <DropDown title="Energy" options={["Category 1", "Category 2"]} />
           <DropDown title="Machine" options={["Category 1", "Category 2"]} />

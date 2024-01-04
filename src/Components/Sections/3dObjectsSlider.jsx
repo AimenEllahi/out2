@@ -27,7 +27,7 @@ export default function ObjectsSlider() {
           OBJECTS
         </span>
         <hr className="w-[12rem] border-[.1rem] rotate-90 hidden md:block" />
-        <span className=" text-sm mt-3 md:mt-0 md:text-base text-left">
+        <span className="text-[10px] mt-3 md:mt-0 md:text-base text-left">
           {" "}
           The Moulton models from our perspectives, currently there are 3d
           models of our ideas. Soon we will be adding the prototypes.

@@ -27,7 +27,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="bg-black text-white fixed top-0 w-full flex items-center justify-between p-2 z-10">
+    <nav className="bg-black text-white fixed top-0 w-screen sm:w-full flex items-center justify-between p-2 z-10">
       <img
         src={menuIcon}
         alt="Menu"
@@ -91,7 +91,13 @@ function Navbar() {
         </button>
       </div>
       <div className=" flex items-center">
-        <button className="company-button text-black bg-white border-solid border p-2 cursor-pointer transition duration-200 hover:bg-transparent hover:text-white">
+        <button
+          onClick={() => {
+            const section = document.getElementById("header");
+            section.scrollIntoView({ behavior: "smooth" });
+          }}
+          className="company-button text-black bg-white border-solid border p-2 cursor-pointer transition duration-200 hover:bg-transparent hover:text-white"
+        >
           5 WEB
         </button>
         <button
