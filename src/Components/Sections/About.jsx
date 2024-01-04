@@ -89,7 +89,7 @@ export default function About() {
         journey as we shape the future of technology.
       </div>
       <div className="group border hidden md:block">
-        <div className="absolute h-[30vh] -bottom-2 left-5 w-[20vw] bg-transparent z-10 transition transform scale-95 ease-in-out duration-500  group-hover:scale-100">
+        <div className="absolute h-[30vh] -bottom-1.5 left-5 w-[20vw] bg-transparent z-10 transition transform scale-95 ease-in-out duration-500  group-hover:scale-100">
           <img src="/user1.png" alt="" className=" h-full object-contain" />
         </div>
       </div>
