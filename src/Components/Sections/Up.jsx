@@ -38,7 +38,7 @@ function Up() {
           </div>
         </div>
         <div className="flex flex-col mt-10 md:flex-row w-full justify-between">
-          <div className="md:w-2/3 w-2/3">
+          <div className=" w-full md:w-2/3">
             <Slider {...settings}>
               {images.map((image, index) => (
                 <div key={index}>
@@ -51,7 +51,7 @@ function Up() {
               ))}
             </Slider>
           </div>
-          <div className="transform rotate-90 flex flex-col justify-around m-auto tracking-tighter">
+          <div className="transform rotate-90 hidden flex-col justify-around m-auto tracking-tighter md:flex">
             <span className="text-[6rem] text-white font-bold items-center flex h-[12vh] text-center">
               UPGRADES
             </span>

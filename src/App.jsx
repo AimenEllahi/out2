@@ -14,8 +14,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
-    <div className='h-full relative'>
-     
+    <div className="h-full relative">
       <Navbar />
       <Home />
     </div>

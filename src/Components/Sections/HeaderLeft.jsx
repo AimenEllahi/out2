@@ -18,7 +18,7 @@ const TextWithIcon = ({ text = "" }) => {
 };
 export default function HeaderLeft() {
   return (
-    <div className="md:w-2/4 w-full">
+    <div className="md:w-[35%] w-full">
       <div className="font-bold">
         {" "}
         <h1>

@@ -15,8 +15,8 @@ const ImageObjects = ({ src, className }) => {
 
 export default function HeaderRight() {
   return (
-    <div className="w-2/4 overflow-x-hidden hidden md:block">
-      <div className="relative h-screen w-full ">
+    <div className="w-[65%] overflow-x-hidden hidden md:block">
+      <div className="relative h-screen w-full">
         <img
           src="/images/5WQC.png"
           className=" absolute  top-[-10%] object-contain h-full w-full -right-20 "
